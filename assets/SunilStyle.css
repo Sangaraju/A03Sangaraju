@@ -1,0 +1,52 @@
+body{
+
+	background-image: url("climate1.jpg");
+	background-repeat: no-repeat;
+}
+#img{
+	
+	width: 250px;
+	height: 250px;
+}
+.dev{
+	max-width: 560px;
+	max-height: 315px;
+}
+.desc1{
+	
+	font-style: italic;
+	color: white;
+	
+}
+#desc{
+	font-style: italic;
+	color: white;
+}
+#desc2{
+	font-style: italic;
+	color: white;
+}
+#desc3{
+	font-style: italic;
+	color: white;
+}
+#img3{
+	
+	width: 25px;
+	height: 25px;
+}
+#img4{
+	
+	width: 25px;
+	height: 25px;
+}
+#img5{
+	
+	width: 25px;
+	height: 25px;
+}
+.div{
+	display: inline;
+	
+}
+ 

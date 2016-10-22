@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SunilKumar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="SunilStyle.css">
+  <script type="text/javascript" src="Converting.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">SunilKumar</a>
+    </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+    <ul class="nav navbar-nav">
+      <li ><a href="http://127.0.0.1:8081/Sunil.html" >Home</a></li>
+      <li><a href="http://127.0.0.1:8081/convertor.html" >convertor</a></li>
+      <li><a href="http://127.0.0.1:8081/contact.html">contact</a></li>
+      <li><a href="http://127.0.0.1:8081/views/index.ejs">Guest Book</a></li>
+    </ul>
+  </div>
+  </div>
+  </nav>
+  <div class="container">
+  <h2 class="text-center" id="desc2">Convertor</h2>
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="Farenheit" onblur="reset()"><strong class="desc1">Farenheit:</strong></label>
+      <div class="col-sm-4">
+        <input type="number" class="form-control" id="F" placeholder="Farenheit">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="Celsius"><strong class="desc1">Celsius:</strong></label>
+      <div class="col-sm-4">
+        <input type="number" class="form-control" id="C" placeholder="Celsius">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="button" class="btn btn-default" onclick="temp()" >Convert</button>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>

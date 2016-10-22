@@ -1,0 +1,19 @@
+{
+    "name": "M07",
+    "version": "0.0.1",
+    "description": "simple guestbook app",
+    "main": "gbapp.js",
+    "dependencies": {
+        "express": "latest",
+        "morgan": "latest",
+        "body-parser": "latest",
+        "ejs": "latest"
+    },
+    "author": "Sangaraju SunilKumar",
+    "homepage": "https://bitbucket.org/A03Sangaraju",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/A03sangaraju"
+    },
+    "license": "Apache-2.0"
+}
